@@ -1,0 +1,8 @@
+#automatizando a loja
+quantidade_camisas = 5
+valor_camisa = 40
+faturamento_total = quantidade_camisas * valor_camisa
+print (" o faturamento total da loja foi de",faturamento_total)
+
+>>> %Run -c $EDITOR_CONTENT
+ o faturamento total da loja foi de 200
