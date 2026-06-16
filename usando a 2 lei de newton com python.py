@@ -8,4 +8,4 @@ Força = massa * Aceleração
 
 print ("a Força resultante é de:", Força, "Newtons")
 
-a Força resultante é de: 1500 Newtons
+#a Força resultante é de: 1500 Newtons
