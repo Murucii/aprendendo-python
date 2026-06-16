@@ -8,4 +8,11 @@ Força = massa * Aceleração
 
 print ("a Força resultante é de:", Força, "Newtons")
 
-#a Força resultante é de: 1500 Newtons
+massa = Força / Aceleração
+
+print ("a massa resultante é de:", massa,"kg")
+
+'''
+a Força resultante é de: 1500 Newtons
+a massa resultante é de: 50.0 kg
+'''
