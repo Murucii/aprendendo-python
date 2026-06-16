@@ -10,8 +10,9 @@ lucro = faturamento - custo
 margem = lucro / faturamento *100
 
 print ("e a margem de lucro foi de", margem)
-
+"""
 >>> %Run -c $EDITOR_CONTENT
 o faturamento total da loja foi de 200
 e a margem de lucro foi de 85.0
 >>> 
+"""
