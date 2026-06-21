@@ -40,9 +40,9 @@ if nota_5 < 500:
 if nota_5 >= 500:
     print ('passou nessa.')
 
-media = (nota_1 + nota_2 + nota_3 + nota_4 + nota_5) // 5
+media = (nota_1 + nota_2 + nota_3 + nota_4 + nota_5) / 5
 
-print (f"sua nota do enem foi:{media}")
+print (f"sua nota do enem foi:{media: .2f}")
 
 if media <= 550:
     print ('Lamento dizer... mas voce não passa em muita coisa :<')
