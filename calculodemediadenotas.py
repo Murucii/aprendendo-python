@@ -4,23 +4,32 @@ print ("==========O Calculador de Média Acadêmica==========")
 
 nome_do_aluno = input("qual seu nome?")
 
-#Peça a Nota 1 (pode ser um número quebrado, ex: 7.5).
+#Nota 1
 
 primeira_nota = float(input("qual a sua primeira nota?"))
 
-#Peça a Nota 2 (ex: 8).
+#Nota 2 
 
 segunda_nota = float(input("qual a sua segunda nota?"))
 
-#Peça a Nota 3 (ex: 6.5).
+#Nota 3 
 
 terceira_nota = float(input("qual a sua terceira nota?"))
 
-#Calcule a média final do aluno.
+#média final do aluno.
 
 media = (primeira_nota + segunda_nota + terceira_nota) / 3
 
-#Mostre o nome do aluno, as três notas que ele tirou e a média final bem organizada na tela.
+#nome do aluno, as três notas que ele tirou e a média final.
 
-print (f"{nome_do_aluno} sua media de nota foi {media}")
+print (f"{nome_do_aluno} sua media de nota foi {media: .2f}")
+
+if media < 7:
+    print ('Voce não passou. :<')
+
+if media >= 7:
+    print ('voce passou!')
+    print ('==========PARABENS==========')
+
+
 
