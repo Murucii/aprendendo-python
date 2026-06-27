@@ -15,6 +15,9 @@ ano_de_nascimento = int(input("qual seu ano de nascimento?"))
 #Peça o cargo dele na empresa (ex: Dev Junior).
 
 cargo_na_empresa = input("qual o seu cargo na empresa?")
+if cargo_na_empresa == 'nenhum':
+    print('VISITANTE')
+
 
 print ("====================DADOS==============================")
 
@@ -31,7 +34,8 @@ idade_aproximada = 2026 - ano_de_nascimento
 email_corporativo = primeiro_nome+ "." + sobrenome + "@rlcorp.com"
 
 print (f"nome:{nome_completo}")
-print (f"idade: {idade_aproximada} anos")
+print (f'cargo:{cargo_na_empresa}')
+print (f"idade:≈{idade_aproximada} anos")
 print (f"email: {email_corporativo}")
 
 print ("=================Seja Bem Vindo========================")
