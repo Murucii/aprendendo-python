@@ -16,12 +16,18 @@ Atualmente, estou a finalizar o estudo das **Estruturas Condicionais**:
 
 ## 📂 Estrutura do Repositório
 
-*Aqui podes listar os principais arquivos do teu projeto. Para atualizar, basta mudar os nomes abaixo:*
+Aqui estão os principais scripts e pastas do projeto, focados em lógica, condicionais e automações:
 
-* 📁 `exercicios/` : Pasta com resoluções de desafios práticos.
-* 📄 `condicionais.py` : Exemplos práticos usando `if`, `elif` e `else`.
-* 📄 `README.md` : Este arquivo de guia.
-
+* 📁 `scripts_executaveis/` : Pasta contendo versões executáveis dos projetos.
+* 📄 `Gerador de Crachas Corporativos.py` : Script para geração e modificação de crachás com condicionais.
+* 📄 `automatizando a loja.py` e `simulador-de-checkout.py` : Sistemas para fluxo de vendas e checkout de produtos.
+* 📄 `calculo da media de notas do enem.py` e `calculodemediadenotas.py` : Calculadoras de médias com formatação de casas decimais (`:.2f`).
+* 📄 `desafio dos tres numeros.py` e `exercicios de logica.py` : Desafios práticos de comparação e lógica pura.
+* 📄 `mini_calculadora_de_operacoes_basicas.py` : Mini sistema para realizar operações matemáticas simples.
+* 📄 `notas_de_filme.py` e `questionario.py` : Classificação de notas e estrutura básica de perguntas/respostas.
+* 📄 `script de faturamento com conta e gorjeta.py` : Script para divisão de contas e cálculo de gorjetas.
+* 📄 `sistema_de_frete_de_loja.py` : Programa de verificação e cálculo de frete.
+* 📄 `usando a 2 lei de newton com python.py` : Script focado em física para cálculo de massa e força utilizando a segunda lei de Newton.
 ---
 
 ## 🛠️ Como Executar os Códigos
